@@ -1,0 +1,76 @@
+:root{
+  --primary:#199473;
+}
+body{
+  background-color:gray;
+  font-family: 'open Sans',sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.container{
+  margin: 0 auto;
+  max-width: 800px;
+
+}
+.header{
+  background-image: url(imagem.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+.profile{
+  background-color: white;
+  margin-top: -250px;
+}
+.profile-card{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.profile-avatar{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem 5rem;
+}
+.profile-photo{
+  border-radius: 50%;
+  max-width: 12rem;
+}
+.profile-name{
+  color: var(--primary);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+.profile-career{
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+.profile-info{
+  padding: 2.5rem;
+  padding-left: 0;
+}
+.profile-about{
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+.profile-summary{
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+.profile-data{
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+
+}
+.profile-label{
+  display: inline-block;
+  font-weight: 700;
+  width: 5rem;
+}
